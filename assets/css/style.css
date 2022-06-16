@@ -200,6 +200,25 @@ ul li {
 
 
 @media only screen and (max-width: 575.99px) {
+    .banner-bg {
+        /* background: linear-gradient(to right, #252C53 0%, #204572 100%); */
+        /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+        background-image: url(../images/mobileBackground.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .Btn {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .banner-para {
+        padding-right: 200px;
+    }
+
     .navbar {
         background: #204572;
         position: fixed;
@@ -235,6 +254,21 @@ ul li {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767.89px) {
+    .banner-bg {
+        /* background: linear-gradient(to right, #252C53 0%, #204572 100%); */
+        /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+        background-image: url(../images/mobileBackground.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .Btn {
+        display: block;
+        margin-top: 30px;
+    }
+
     .navbar {
         background: #204572;
         position: fixed;
@@ -243,6 +277,10 @@ ul li {
     .banner-content {
         margin-top: 150px;
         margin-bottom: 50px;
+    }
+
+    .banner-para {
+        padding-right: 200px;
     }
 
     .banner-img {
