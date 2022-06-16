@@ -236,8 +236,8 @@ ul li {
     .counter-item {
         border: 1px solid #a3a3a3;
         border-radius: 10px;
-        padding: 30px 10px;
         margin: 10px;
+        padding-top: 10px;
     }
 
     .banner-img {
@@ -285,6 +285,13 @@ ul li {
 
     .banner-img {
         display: none;
+    }
+
+    .counter-item {
+        border: 1px solid #a3a3a3;
+        border-radius: 10px;
+        margin: 10px;
+        padding-top: 10px;
     }
 }
 
